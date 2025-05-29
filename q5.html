@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab</title>
+    <link rel="stylesheet" href="src/output.css">
+  </head>
+  <body>
+    <div class="m-auto w-[1170px] mt-5">
+      <h1 id="heading"></h1>
+      <button class="py-3 px-5 bg-blue-500 rounded-[10px] text-white cursor-pointer" onclick="home.style.display = 'none'; heading.innerHTML = 'This is Home'; about.style.display= 'none'; contact.style.display = 'none' " id="home">Home</button>
+
+      <button class="py-3 px-5 bg-teal-500 rounded-[10px] text-white cursor-pointer" id="about" onclick="home.style.display = 'none'; heading.innerHTML = 'This is About'; about.style.display= 'none'; contact.style.display = 'none'">About</button>
+      
+      <button class="py-3 px-5 bg-red-500 rounded-[10px] text-white cursor-pointer" id="contact" onclick="home.style.display = 'none'; heading.innerHTML = 'This is About'; about.style.display= 'none'; contact.style.display = 'none'">Contact</button>
+    </div>
+
+    <script src="js/four.js"></script>
+  </body>
+</html>

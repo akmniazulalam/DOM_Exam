@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Show Hide</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="m-auto w-[1170px] mt-5">
+            <div class="p-5 bg-black text-white w-[100px] m-5 text-center rounded-[10px]" id="hello">Hello</div>
+            <button class="bg-green-500 rounded-[10px] text-white py-5 px-7 cursor-pointer" id="hide" onclick="hello.style.display = 'none'">Hide</button>
+            <button class="bg-red-500 rounded-[10px] text-white py-5 px-7 cursor-pointer" id="show" onclick="hello.style.display = 'block'">Show</button>
+        </div>
+
+        <script src="js/two.js"></script>
+    </body>
+</html>
